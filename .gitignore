@@ -26,8 +26,15 @@ ipch
 *.VC.db
 *.VC.VC.opendb
 
+## Visual Studio project files
+*.vcxproj
+
 ## Commonly used CMake directories
 /build*/
+
+## Custom build directories
+/bin/
+/bin-int/
 
 ## Xcode artifacts
 project.xcworkspace
